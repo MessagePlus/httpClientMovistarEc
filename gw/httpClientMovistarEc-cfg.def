@@ -1,0 +1,26 @@
+/* ==================================================================
+ * httpclient-cfg.def - Definicion de la configuracion de Grupos y Variables Definition of configuration groups and variables
+ *
+ * Rodrigo Vallejo desarrollo@mplus.ec
+ *
+ */
+
+SINGLE_GROUP(httpClientMovistarEc,
+	OCTSTR(httpClientMovistarEc-id)
+	OCTSTR(url)
+	OCTSTR(log-file)
+	OCTSTR(log-level)
+	OCTSTR(time-out)	
+)
+
+
+
+SINGLE_GROUP(mysql-connection,
+    OCTSTR(id)
+    OCTSTR(host)
+    OCTSTR(port)
+    OCTSTR(username)
+    OCTSTR(password)
+    OCTSTR(database)
+    OCTSTR(max-connections)
+)
